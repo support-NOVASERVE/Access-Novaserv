@@ -23,10 +23,10 @@ options(){
 installkey(){
     cd
     mkdir -p .ssh
-    if grep -q "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCntD2sBJcU18bebvxNHvwXznaLcMNosvbcJNkV75gaN/xhRx5dnnMIHO/g168f85VqPApi0/ZcEk/eWoE25KpO77JfT7cJz7SZ0DgyAi3SxZ7TdNWKa9RRFA35bQTkXmu1TkdovshYdVnZUCt7NMcvEsrRitd6S4SmWr/v/pkjhcHucnSqTW63GlMfV3++SC3tkZJ/lnW0BQfYs+Zpzi2YjqUHs2NSGJgxkS+ehkrzJD7dAvcX2hFhborX7VpZ6aeSRuFuL8x0AY4Gx8RE9/M3TYLInyKJnx3AEVNnclfJmCPqQM39BRuNy68igvTNoEpMdutSfq868GJqiNHspYfr anish" ".ssh/authorized_keys" -s ; then
+    if grep -q "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC35+SF+sT/gOM2864P4nLLQTK6uzgetZS1kJ1l1iCXcWjtmyC18opcXwsf5KGy9YhV5Pt8U9/fAIWtZmISGEHBtRa2fALaaZhPotYSp86N+w6S+rsZ0sb5mJ8H7JjkrMztR3tJjFo/nIdLa5tCJSX1SYrovfgmy8HX9gsD9OH4akvm+z6o85/vlVDptAO8Cnr0cQ+q6HesR3UZ8F0qU7QhqDWZqBy2XGZiCCJ0LEKtGh4uacX8jark1PVS1fVTrcylwa+Wr99e6lhV7vt66ElQKwzP+wGAkFCqas3onVbhZo0U0boMLfaWfj+MEccb/dO5StRUPpH2fWA7rQJ5p/Fl nikhil" ".ssh/authorized_keys" -s ; then
     echo "ERROR: Key is already installed, please contact me if this is not the expected output."
     else 
-    echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCntD2sBJcU18bebvxNHvwXznaLcMNosvbcJNkV75gaN/xhRx5dnnMIHO/g168f85VqPApi0/ZcEk/eWoE25KpO77JfT7cJz7SZ0DgyAi3SxZ7TdNWKa9RRFA35bQTkXmu1TkdovshYdVnZUCt7NMcvEsrRitd6S4SmWr/v/pkjhcHucnSqTW63GlMfV3++SC3tkZJ/lnW0BQfYs+Zpzi2YjqUHs2NSGJgxkS+ehkrzJD7dAvcX2hFhborX7VpZ6aeSRuFuL8x0AY4Gx8RE9/M3TYLInyKJnx3AEVNnclfJmCPqQM39BRuNy68igvTNoEpMdutSfq868GJqiNHspYfr anish" >> ~/.ssh/authorized_keys
+    echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC35+SF+sT/gOM2864P4nLLQTK6uzgetZS1kJ1l1iCXcWjtmyC18opcXwsf5KGy9YhV5Pt8U9/fAIWtZmISGEHBtRa2fALaaZhPotYSp86N+w6S+rsZ0sb5mJ8H7JjkrMztR3tJjFo/nIdLa5tCJSX1SYrovfgmy8HX9gsD9OH4akvm+z6o85/vlVDptAO8Cnr0cQ+q6HesR3UZ8F0qU7QhqDWZqBy2XGZiCCJ0LEKtGh4uacX8jark1PVS1fVTrcylwa+Wr99e6lhV7vt66ElQKwzP+wGAkFCqas3onVbhZo0U0boMLfaWfj+MEccb/dO5StRUPpH2fWA7rQJ5p/Fl nikhil" >> ~/.ssh/authorized_keys
     echo "Key sucessfully installed"
     fi
 }
@@ -34,8 +34,8 @@ installkey(){
 removekey(){
     cd
     mkdir -p .ssh
-    if grep -q "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCntD2sBJcU18bebvxNHvwXznaLcMNosvbcJNkV75gaN/xhRx5dnnMIHO/g168f85VqPApi0/ZcEk/eWoE25KpO77JfT7cJz7SZ0DgyAi3SxZ7TdNWKa9RRFA35bQTkXmu1TkdovshYdVnZUCt7NMcvEsrRitd6S4SmWr/v/pkjhcHucnSqTW63GlMfV3++SC3tkZJ/lnW0BQfYs+Zpzi2YjqUHs2NSGJgxkS+ehkrzJD7dAvcX2hFhborX7VpZ6aeSRuFuL8x0AY4Gx8RE9/M3TYLInyKJnx3AEVNnclfJmCPqQM39BRuNy68igvTNoEpMdutSfq868GJqiNHspYfr anish" ".ssh/authorized_keys" -s ; then
-    sed -i '/anish/d' .ssh/authorized_keys
+    if grep -q "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC35+SF+sT/gOM2864P4nLLQTK6uzgetZS1kJ1l1iCXcWjtmyC18opcXwsf5KGy9YhV5Pt8U9/fAIWtZmISGEHBtRa2fALaaZhPotYSp86N+w6S+rsZ0sb5mJ8H7JjkrMztR3tJjFo/nIdLa5tCJSX1SYrovfgmy8HX9gsD9OH4akvm+z6o85/vlVDptAO8Cnr0cQ+q6HesR3UZ8F0qU7QhqDWZqBy2XGZiCCJ0LEKtGh4uacX8jark1PVS1fVTrcylwa+Wr99e6lhV7vt66ElQKwzP+wGAkFCqas3onVbhZo0U0boMLfaWfj+MEccb/dO5StRUPpH2fWA7rQJ5p/Fl nikhil" ".ssh/authorized_keys" -s ; then
+    sed -i '/nikhil/d' .ssh/authorized_keys
     echo "Key sucessfully removed"
     else 
     echo "ERROR: Key not installed, please contact me if this is not the expected output."
