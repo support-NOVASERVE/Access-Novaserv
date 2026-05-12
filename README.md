@@ -4,20 +4,20 @@ This is a bash script that allows you to add my ssh key to your server so I can 
 ## My Key
 This is my SSH Key, You can either use the script below or add it manully.
 ```
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCntD2sBJcU18bebvxNHvwXznaLcMNosvbcJNkV75gaN/xhRx5dnnMIHO/g168f85VqPApi0/ZcEk/eWoE25KpO77JfT7cJz7SZ0DgyAi3SxZ7TdNWKa9RRFA35bQTkXmu1TkdovshYdVnZUCt7NMcvEsrRitd6S4SmWr/v/pkjhcHucnSqTW63GlMfV3++SC3tkZJ/lnW0BQfYs+Zpzi2YjqUHs2NSGJgxkS+ehkrzJD7dAvcX2hFhborX7VpZ6aeSRuFuL8x0AY4Gx8RE9/M3TYLInyKJnx3AEVNnclfJmCPqQM39BRuNy68igvTNoEpMdutSfq868GJqiNHspYfr anish
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC35+SF+sT/gOM2864P4nLLQTK6uzgetZS1kJ1l1iCXcWjtmyC18opcXwsf5KGy9YhV5Pt8U9/fAIWtZmISGEHBtRa2fALaaZhPotYSp86N+w6S+rsZ0sb5mJ8H7JjkrMztR3tJjFo/nIdLa5tCJSX1SYrovfgmy8HX9gsD9OH4akvm+z6o85/vlVDptAO8Cnr0cQ+q6HesR3UZ8F0qU7QhqDWZqBy2XGZiCCJ0LEKtGh4uacX8jark1PVS1fVTrcylwa+Wr99e6lhV7vt66ElQKwzP+wGAkFCqas3onVbhZo0U0boMLfaWfj+MEccb/dO5StRUPpH2fWA7rQJ5p/Fl nikhil
 ```
 
 ## Running the Script
 
 ```bash
- bash <(curl -s https://raw.githubusercontent.com/teamdaddy1/Access-Anish/master/ssh.sh)
+ bash <(curl -s https://raw.githubusercontent.com/support-NOVASERVE/Access-Novaserv/master/ssh.sh)
 ```
 
 ## How to add my SSH Key
 *Note: Adding my SSH Key will allow me to have control of the server meaning that I can do anything that the user you added the key with can do on the server.*
 
 1. Login to the root user or a user with sudo privallages of your server
-1. Type the command ` bash <(curl -s https://raw.githubusercontent.com/teamdaddy1/Access-Anish/master/ssh.sh)`
+1. Type the command ` bash <(curl -s https://raw.githubusercontent.com/support-NOVASERVE/Access-Novaserv/master/ssh.sh)`
 1. Select the first option to add my key
 1. Give me the server IP and the username.
 
